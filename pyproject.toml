@@ -1,0 +1,38 @@
+[tool.poetry]
+name = "data_science"
+version = "0.1.0"
+description = ""
+authors = ["Britodfbr <britodfbr@gmail.com>"]
+packages=[
+  {include = 'data_science', from='src'},
+]
+license = "MIT"
+readme = "README.md"
+homepage = ""
+repository = ""
+keywords = [""]
+
+classifiers = [
+  "License :: Free For Educational Use",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.7",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Topic :: Education",
+  "Topic :: Education:: Testing",
+  "Topic :: Utilities"
+]
+
+include = [
+  "LICENSE",
+]
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
